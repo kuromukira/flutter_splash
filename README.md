@@ -7,11 +7,11 @@ This is a shameless copy of [this package](https://github.com/KarimMohamed2005/S
 
 ## Usage
 
-[Example](https://github.com/KarimMohamed2005/SplashScreenFlutterPackage/blob/master/example/example.dart)
+[Example](https://github.com/kuromukira/flutter_splash/blob/master/example/example.dart)
 
 To use this package :
 
-* add the dependency to your [pubspec.yaml](https://github.com/KarimMohamed2005/SplashScreenFlutterPackage/blob/master/pubspec.yaml) file.
+* add the dependency to your [pubspec.yaml](https://github.com/kuromukira/flutter_splash/blob/master/pubspec.yaml) file.
 
 ```yaml
   dependencies:

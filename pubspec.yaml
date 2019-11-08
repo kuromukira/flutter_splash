@@ -2,7 +2,7 @@ name: flutter_splash
 description: Easily create simple splash screen for flutter applications
 version: 1.0.0
 author: Nor Gelera <chrome.nor@gmail.com>
-homepage:
+homepage: https://github.com/kuromukira/flutter_splash
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
