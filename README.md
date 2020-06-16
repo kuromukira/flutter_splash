@@ -17,7 +17,7 @@ To use this package :
   dependencies:
     flutter:
       sdk: flutter
-    flutter_splash: ^1.0.0
+    flutter_splash: ^1.0.1
 ```
 
 ### How to use
