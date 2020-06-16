@@ -10,7 +10,7 @@ class Splash extends StatefulWidget {
   final Color backgroundColor;
   final TextStyle styleTextUnderTheLoader;
   final dynamic navigateAfterSeconds;
-  final Future<dynamic> navigateAfterFuture;
+  final Future<dynamic> Function() navigateAfterFuture;
   final double photoSize;
   final dynamic onClick;
   final Color loaderColor;
@@ -64,10 +64,8 @@ class _SplashState extends State<Splash> {
         }
       });
     } else {
-      widget.navigateAfterFuture.then((navigateTo) {
+      widget.navigateAfterFuture().then((navigateTo) {
         if (navigateTo is String) {
-          // It's fairly safe to assume this is using the in-built material
-          // named route component
           Navigator.of(context).pushReplacementNamed(navigateTo);
         } else if (navigateTo is Widget) {
           Navigator.of(context).pushReplacement(new MaterialPageRoute(
