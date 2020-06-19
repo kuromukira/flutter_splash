@@ -41,7 +41,7 @@ As futured based...
 
 ``` dart
     new Splash(
-      navigateAfterFuture: stateClass.loadProfile(),
+      navigateAfterFuture: stateClass.loadProfile,
       title: new Text('Welcome In SplashScreen'),
       image: new Image.asset('screenshot.png'),
       backgroundColor: Colors.white,
