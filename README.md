@@ -3,7 +3,7 @@
 * A small Splash Screen used for an intro for any flutter application easily using
 
 ## ❗ Notice
-This is a shameless copy of [this package](https://github.com/KarimMohamed2005/SplashScreenFlutterPackage) that fixes `navigateAfterFuture`. Feel free to message me if you have any concerns or want to help improve this package.
+This package is no longer supported since the [original](https://github.com/DPLYR-dev/SplashScreenFlutterPackage) is already back with new features. Will probably keep this package just in case there's a need for it in the future.
 
 ## Usage
 
